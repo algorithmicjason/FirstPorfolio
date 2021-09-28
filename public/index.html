@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Jason</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" >
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -16,155 +26,186 @@
       <div class="logo">
         <img src="#" alt="" />
       </div>
-      <button class="nav-toggle" aria-label="toggle navigation" >
+      <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
-      <nav class='nav'>
+      <nav class="nav">
         <ul class="nav__list">
-          <li class="na__item"><a href='#home' class="nav__link">Home</a></li>
-          <li class="na__item"><a href='#home' class="nav__link">My Services</a></li>
-          <li class="na__item"><a href='#home' class="nav__link">About me</a></li>
-          <li class="na__item"><a href='#home' class="nav__link">My Work</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
         </ul>
-        </nav>
-
+      </nav>
     </header>
     <!-- Introduction pic with name in it -->
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
         Hi, I am <strong>Jason Herrera</strong>
-      </h1>      
+      </h1>
       <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
-      <img class="intro__img" src="./images/MyPic.JPG" alt="A picture of Jason Herrera smiling" />
+      <img
+        class="intro__img"
+        src="./images/MyPic.JPG"
+        alt="A picture of Jason Herrera smiling"
+      />
     </section>
 
     <!-- MY SERVICES  -->
     <section class="my-services" id="services">
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
-
         <div class="service">
           <h3>FRONT END</h3>
-          <p>HTML5, CSS, Vanilla Javascript, & React literate.  </p>
+          <p>HTML5, CSS, Vanilla Javascript, & React literate.</p>
         </div>
-        
+
         <div class="service">
           <h3>BACK END</h3>
           <p>Ruby On Rails, SQL</p>
         </div>
-       
-      <div class="service">
-        <h3>MORE</h3>
-        <p>Team player </p>
+
+        <div class="service">
+          <h3>MORE</h3>
+          <p>Team player</p>
+        </div>
       </div>
-      
-    </div> <!--Services-->
-    
-    <a href="#work" class="btn">My Work</a>
+      <!--Services-->
+
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!--ABOUT ME-->
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">Designer & developer based out of Houston Texas</p>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & developer based out of Houston Texas
+      </p>
 
       <div class="about-me__body">
         <p>I am a 23 year old male from the Houston, Texas area</p>
-        <p>When not working on code i enjoy hitting the gym and spending time with friends and family.</p>
+        <p>
+          When not working on code i enjoy hitting the gym and spending time
+          with friends and family.
+        </p>
       </div>
 
       <img src="./images/IMG_5345.jpg" alt="Jason" class="about-me__img" />
     </section>
 
-      <!--MY WORK-->
-      <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+    <!--MY WORK-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
       <div class="portfolio">
-
         <!-- Portfolio item 1 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="./images/domenico-loia-unsplash.jpg" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 2 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="./images/mohammad-rahmani-unsplash.jpg" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 3 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a> 
+          <img src="./images/domenico-loia-unsplash.jpg" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 4 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="./images/mohammad-rahmani-unsplash.jpg" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 5 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="./images/domenico-loia-unsplash.jpg" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 6 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="./images/mohammad-rahmani-unsplash.jpg" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 7 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 8 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 9 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
 
         <!-- Portfolio item 10 -->
         <a href="#" class="portfolio__item">
-          <img src="#" alt="" class="portfolio__img">
-        </a>  
-        
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
       </div>
-      
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-      <a href="mailto:algorithmicjason@gmail.com" class="footer__link">algorithmicjason@gmail.com</a>
+      <a href="mailto:algorithmicjason@gmail.com" class="footer__link"
+        >algorithmicjason@gmail.com</a
+      >
       <ul class="social-list">
         <li class="social-list__item">
-          <a class="social-list__link" href="https://www.linkedin.com/in/jason-herrera-aka-algorithmicjason/" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/jason-herrera-aka-algorithmicjason/"
+            target="_blank"
+          >
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://www.youtube.com/channel/UCxjAe-XOAjih0KkBSME9i_A" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://www.youtube.com/channel/UCxjAe-XOAjih0KkBSME9i_A"
+            target="_blank"
+          >
             <i class="fab fa-youtube"></i>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/JasonHerrera_SE" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/JasonHerrera_SE"
+            target="_blank"
+          >
             <i class="fab fa-twitter"></i>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/algorithmicjason" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://github.com/algorithmicjason"
+            target="_blank"
+          >
             <i class="fab fa-github"></i>
           </a>
         </li>
       </ul>
     </footer>
-    
-    <div id="root">
-    </div>
+
+    <script src="js/index.js"></script>
+
+    <div id="root"></div>
   </body>
 </html>
