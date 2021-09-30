@@ -59,6 +59,11 @@ img {
   max-width: 100%;
 }
 
+iframe {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 strong {
   font-weight: var(--fw-bold);
 }
